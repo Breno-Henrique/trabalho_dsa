@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 100;
+    background-color: #5e8ee7; 
+    color: #333;
+    transition: background-color 0.5s ease; 
+}
+
+header {
+    height: 88px;
+    width: 97%;
+    background-color: #222;
+    color: white;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center;
+  border: 3px solid #00bcd4 ; 
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+h1 a:hover {
+    color: #00bcd4;
+    font-size: 40px;
+    transition: 0.7s;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fdfdfd;
+    font-size: 25px;
+    transition: 0.7s;
+}
+
+.hero {
+    position: relative;
+    background-image: url("GABRIEL_VELLA_vs_ROMINHO_51.jpg"); 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.content {
+    padding: 2em;
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border: 5px solid  #5e8ee7 ; 
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #222;
+    color: white;
+    position: absolute; 
+    margin-bottom: 0%;
+    width: 98%;
+    align-items: center;
+    right: 0%;
+}
+
+button {
+    margin-top: -30px;
+    font-family: cursive;
+    height: 65px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #222;
+    color: white;
+    transition: background-color 0.8s ease, transform 0.5s ease;
+}
+
+button:hover {
+    background-color: #5e8ee7;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+
+body:has(button:hover) {
+    background-color: #1a1818;
+  color:rgb(51, 51, 231)
+  
+  } 
+
+
+
+
+
+
+
+
+
